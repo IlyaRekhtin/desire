@@ -733,6 +733,7 @@
 .inspiration {
     padding-top: 100px;
     position: relative;
+
     &::after {
         content: '';
         position: absolute;
@@ -785,7 +786,7 @@
     &__text {
         margin-bottom: 55px;
     }
-    
+
 
     &__item {
         @extend %title-font;
@@ -803,6 +804,6 @@
 
     }
 
-     
+
 
 }
